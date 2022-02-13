@@ -1,0 +1,92 @@
+.plan {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 87px;
+    &-heading {
+        display: flex;
+        font-family: $font-main;
+        justify-content: space-between;
+        h2 {
+            font-weight: bold;
+            font-size: 44px;
+            line-height: 58px;
+            color: #1f3347;
+        }
+        p {
+            font-size: 16px;
+            line-height: 26px;
+            color: #777781;
+        }
+        &-pages {
+            display: flex;
+            align-items: center;
+            a {
+                background-color: #fff;
+                color: $color-blue;
+                border: 1px solid $color-blue;
+                border-radius: 10px;
+                @include center;
+                ion-icon {
+                    padding: 19px;
+                }
+                &:hover {
+                    background-color: $color-blue;
+                    color: #fff;
+                }
+            }
+            .arrow-left {
+                margin-right: 30px;
+            }
+            .active {
+                background-color: $color-blue;
+                color: #fff;
+            }
+        }
+    }
+    &-list {
+        margin-top: 130px;
+        display: grid;
+        gap: 0 45px;
+        grid-template-columns: repeat(3, 1fr);
+        &-item {
+            box-shadow: 8px 8px 8px #b6b6c1;
+            div {
+                padding: 30px;
+                font-family: $font-main;
+                h5 {
+                    margin-top: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 22px;
+                    color: #1f3347;
+                }
+                p {
+                    font-size: 12px;
+                    line-height: 12px;
+                    color: #777781;
+                    margin-top: 16px;
+                }
+            }
+            .price {
+                padding: 0;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 18px;
+                align-items: center;
+                span {
+                    font-weight: 600;
+                    font-size: 28px;
+                    color: #6347f9;
+                }
+                .evaluate {
+                    color: #777781;
+                    font-weight: 500;
+                    ion-icon {
+                        color: #ffca00;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.about {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 175px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 120px;
+    padding: 0 90px;
+    &-detail {
+        font-family: $font-main;
+        h2 {
+            font-weight: bold;
+            font-size: 44px;
+            line-height: 58px;
+            color: #1f3347;
+        }
+        p {
+            font-size: 16px;
+            line-height: 26px;
+            margin-top: 18px;
+            /* or 162% */
+            color: #777781;
+        }
+        a {
+            padding: 20px 36px;
+            color: $color-blue;
+            background-color: #fff;
+            border: 1px solid $color-blue;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 36px;
+            font-size: 16px;
+            &:hover {
+                color: #fff;
+                background-color: $color-blue;
+            }
+        }
+    }
+    img {
+        cursor: pointer;
+    }
+}

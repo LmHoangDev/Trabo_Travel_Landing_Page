@@ -1,0 +1,60 @@
+.blog {
+    max-width: 1170px;
+    margin: 0 auto;
+    h3 {
+        font-family: $font-main;
+        margin-top: 150px;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 54px;
+        text-align: center;
+        color: #1f3347;
+    }
+    &-list {
+        margin-top: 63px;
+        font-family: $font-main;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0 75px;
+        &-item {
+            h6 {
+                font-weight: 600;
+                margin-top: 31px;
+                font-size: 22px;
+                line-height: 34px;
+                color: #304050;
+            }
+            .auth {
+                margin-top: 12px;
+                font-size: 12px;
+                line-height: 12px;
+                /* identical to box height, or 100% */
+                color: #9a9fa5;
+            }
+            p {
+                font-size: 16px;
+                line-height: 24px;
+                margin-top: 20px;
+                color: #657280;
+            }
+        }
+    }
+    &-all {
+        text-align: center;
+        margin-top: 74px;
+        a {
+            font-family: $font-main;
+            padding: 20px 36px;
+            color: $color-blue;
+            border: 1px solid $color-blue;
+            border-radius: 10px;
+            display: inline-block;
+            font-weight: 500;
+            font-size: 16px;
+            &:hover {
+                color: #fff;
+                background-color: $color-blue;
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.subscribe {
+    max-width: 1170px;
+    margin: 0 auto;
+    background: #fff4f4;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 88px;
+    img {
+        width: auto;
+    }
+    &-content {
+        h2 {
+            font-family: $font-main;
+            font-weight: 600;
+            font-size: 44px;
+            line-height: 54px;
+            text-align: center;
+            color: #1f3347;
+            margin-top: 60px;
+        }
+        &-email {
+            margin-top: 74px;
+            text-align: center;
+            font-family: $font-main;
+            margin-bottom: 70px;
+            input {
+                border: 0;
+                outline: none;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 16px;
+                padding: 20px 36px;
+                color: #b7b9bc;
+                border-radius: 10px;
+                margin-right: 30px;
+            }
+            a {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 16px;
+                text-align: center;
+                color: #ffffff;
+                padding: 20px 36px;
+                background-color: $color-blue;
+                border-radius: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,112 @@
+.features {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 100px;
+    &-heading {
+        font-family: $font-main;
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 58px;
+        text-align: center;
+        color: #1f3347;
+    }
+    p {
+        font-family: $font-main;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #777781;
+    }
+    &-list {
+        margin-top: 62px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0 35px;
+        &-item {
+            position: relative;
+            span {
+                display: inline-block;
+                padding: 9px 16px;
+                font-family: $font-main;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 18px;
+                letter-spacing: 0.01em;
+                color: #6347f9;
+                background-color: #fff;
+                position: absolute;
+                top: 16px;
+                right: 16px;
+                border-radius: 29px;
+            }
+            font-family: $font-main;
+            img {
+                border-radius: 10px;
+            }
+            h6 {
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 22px;
+                letter-spacing: 0.01em;
+                color: #263e56;
+            }
+            p {
+                font-size: 12px;
+                line-height: 12px;
+                /* identical to box height, or 100% */
+                letter-spacing: 0.01em;
+                color: #657280;
+                text-align: left;
+                margin-top: 12px;
+            }
+            &-detail {
+                display: flex;
+                margin-top: 25px;
+                justify-content: space-around;
+                .book-now {
+                    a {
+                        padding: 12px 19px;
+                        color: $font-main;
+                        background-color: #fff;
+                        border-radius: 6px;
+                        font-family: $color-blue;
+                        border: 1px solid $color-blue;
+                        font-weight: 500;
+                        font-size: 12px;
+                        &:hover {
+                            color: #fff;
+                            background-color: $color-blue;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &-see-more {
+        a {
+            padding: 20px 60px;
+            color: $color-blue;
+            background-color: #fff;
+            border: 1px solid #6347f9;
+            border-radius: 10px;
+            font-weight: 500;
+            font-size: 16px;
+            font-family: $font-main;
+            display: inline-block;
+            &:hover {
+                color: #fff;
+                background-color: $color-blue;
+            }
+        }
+        text-align: center;
+        margin-top: 74px;
+    }
+}
+
+.features-heading {}
+
+.features-list {}
+
+.features-item {}
+
+.price {}
