@@ -58,3 +58,36 @@
         }
     }
 }
+
+@media (max-width: 1199.98px) {
+    .blog {
+        padding: 0 10px;
+        &-list {
+            gap: 0 60px;
+        }
+    }
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {
+    .blog {
+        padding: 0 10px;
+        &-list {
+            text-align: center;
+            grid-template-columns: 1fr;
+            gap: 30px 30px;
+            &-item {
+                h6 {
+                    margin-top: 20px;
+                }
+                text-align: center;
+                .auth {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

@@ -50,3 +50,38 @@
         }
     }
 }
+
+@media (max-width: 1199.98px) {
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 150px;
+        &-content {
+            align-self: center;
+            h2 {
+                font-size: 30px;
+            }
+        }
+        .right {
+            align-self: flex-end;
+        }
+    }
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {
+    .subscribe {
+        &-content {
+            h2 {
+                margin-top: 0;
+            }
+            &-email {
+                display: none;
+            }
+        }
+    }
+}
