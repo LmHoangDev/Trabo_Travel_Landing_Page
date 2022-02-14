@@ -103,10 +103,87 @@
     }
 }
 
-.features-heading {}
+@media (max-width: 1199.98px) {}
 
-.features-list {}
+@media (max-width: 991.98px) {
+    .features {
+        &-list {
+            &-item {
+                text-align: center;
+                &-detail {
+                    margin-top: 12px;
+                    .book-now {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
 
-.features-item {}
+@media (max-width: 767.98px) {}
 
-.price {}
+@media (max-width: 575.98px) {
+    .features {
+        &-heading {
+            font-size: 30px;
+        }
+        p {
+            padding: 0 10px;
+        }
+        &-list {
+            margin-top: 62px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px 20px;
+            &-item {
+                position: relative;
+                text-align: center;
+                span {
+                    display: inline-block;
+                    padding: 9px 16px;
+                    font-family: $font-main;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 18px;
+                    letter-spacing: 0.01em;
+                    color: #6347f9;
+                    background-color: #fff;
+                    position: absolute;
+                    top: 16px;
+                    right: 16px;
+                    border-radius: 29px;
+                }
+                font-family: $font-main;
+                img {
+                    border-radius: 10px;
+                }
+                &-detail {
+                    margin-top: 12px;
+                    .book-now {
+                        display: none;
+                    }
+                }
+            }
+        }
+        &-see-more {
+            a {
+                padding: 20px 40px;
+                color: $color-blue;
+                background-color: #fff;
+                border: 1px solid #6347f9;
+                border-radius: 10px;
+                font-weight: 500;
+                font-size: 16px;
+                font-family: $font-main;
+                display: inline-block;
+                &:hover {
+                    color: #fff;
+                    background-color: $color-blue;
+                }
+            }
+            text-align: center;
+            margin-top: 50px;
+        }
+    }
+}

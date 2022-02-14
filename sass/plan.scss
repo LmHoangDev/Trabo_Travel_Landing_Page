@@ -90,3 +90,46 @@
         }
     }
 }
+
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {
+    .plan {
+        &-heading {
+            text-align: center;
+            &-pages {
+                display: none;
+            }
+        }
+        &-list {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            &-item {
+                flex: 1;
+                margin-bottom: 10px;
+                box-shadow: 8px 8px 8px #fff;
+                div {
+                    padding: 10px;
+                    text-align: center;
+                    h5 {
+                        font-size: 20px;
+                    }
+                }
+                .price {
+                    justify-content: space-around;
+                    span {
+                        font-size: 16px;
+                    }
+                }
+                img {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
