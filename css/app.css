@@ -1025,6 +1025,9 @@ body {
   .blog-list-item .auth {
     font-size: 14px;
   }
+  .blog-list-item img {
+    margin: 0 auto;
+  }
 }
 .subscribe {
   max-width: 1170px;
